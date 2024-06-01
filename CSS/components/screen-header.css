@@ -1,0 +1,35 @@
+.screen-header {
+    padding: 45px 20px 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: var(--screen-blue);
+    border-bottom: 2px solid var(--screen-blue-border);
+    z-index: 2;
+}
+.screen-header__title{
+    color:aliceblue;
+    font-size: 25px;
+    font-weight: 800;
+}
+.screen-header__icons{
+    position: relative;
+}
+.screen-header__icons i{
+    color:aliceblue;
+    margin-left: 20px;
+}
+@keyframes rotateCog{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-gear:hover{
+    animation: rotateCog 1.5s linear infinite;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* Compoenents */
+@import "components/red-point.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/menu-header.css";
+@import "components/screen-padding.css";
+@import "components/no-mobile.css";
+
+/* Screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
