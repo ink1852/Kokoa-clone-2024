@@ -6,12 +6,12 @@
     position: fixed;
     width: 100vw;
     box-sizing: border-box;
-    background-color: var(--screen-blue);
-    border-bottom: 2px solid var(--screen-blue-border);
+    background-color: var(--screen-black);
+    border-bottom: 1px solid var(--light-gray-border);
     z-index: 2;
 }
 .screen-header__title{
-    color:aliceblue;
+    color:white;
     font-size: 25px;
     font-weight: 800;
 }
@@ -19,8 +19,9 @@
     position: relative;
 }
 .screen-header__icons i{
-    color:aliceblue;
-    margin-left: 20px;
+    color:white;
+    margin-left: 10px;
+    font-size: 20px;
 }
 @keyframes rotateCog{
     from{

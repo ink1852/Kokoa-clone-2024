@@ -4,17 +4,37 @@
     width: 100%;
     box-sizing: border-box;
     padding: 15px 35px;
-    background-color:var(--screen-blue);
-    border-top: 3px solid var(--screen-blue-border);
+    background-color:var(--screen-black);
+    border-top: 1px solid var(--light-gray-border);
 }
 .nav__list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .nav__link{
-    position: relative;
-    color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
 }
+.nav__link i{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.nav__link span{
+    font-size: 12px;
+}
+
+.nav__link--home,
+.nav__link--create,
+.nav__link--search,
+.nav__link--account{
+    color: white;
+}
+
+
+
 
 @keyframes showBtnAnimation{
     from{
@@ -25,22 +45,11 @@
         opacity: 1;
     }
 }
-.nav__btn{
+/* .nav__btn{
     animation: showBtnAnimation 0.6s ease-in-out forwards;
     transform: translateY(40px);
     opacity: 0;
-}
-.nav__btn i{
-    color: aliceblue;
-}
-.nav__btn:nth-child(2){
-    animation-delay: 0.25s;
-}
-.nav__btn:nth-child(3){
-    animation-delay: 0.5s;
-}
-.nav__btn:last-child{
-    animation-delay: 0.75s;
-}
+    font-size: 16px;
+} */
 
 

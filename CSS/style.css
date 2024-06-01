@@ -24,11 +24,11 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     height: 100vh;
-    background-color: aliceblue;
+    background-color: #0D1525;
 }
 .main-screen{
     padding: 0px var(--horizontal-space);
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     box-sizing: border-box;
 }
 
