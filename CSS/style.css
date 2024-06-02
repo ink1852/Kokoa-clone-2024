@@ -15,10 +15,10 @@
 
 /* Screen */
 @import "screen/login.css";
-@import "screen/friends.css";
+@import "screen/home.css";
 @import "screen/create.css";
-@import "screen/find.css";
-@import "screen/more.css";
+@import "screen/search.css";
+@import "screen/account.css";
 @import "screen/settings.css";
 @import "screen/chat.css";
 
@@ -33,4 +33,9 @@ body{
     padding-bottom: 90px;
     box-sizing: border-box;
 }
-
+.title-text{
+    font-size: 12px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}

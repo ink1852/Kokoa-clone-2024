@@ -4,7 +4,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 15px 35px;
-    background-color:var(--screen-black);
+    background-color:var(--screen-black-header);
     border-top: 1px solid var(--light-gray-border);
     z-index: 10;
 }
@@ -32,6 +32,7 @@
 .nav__link--search,
 .nav__link--account{
     color: white;
+    font-weight: bold;
 }
 
 
