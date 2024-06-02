@@ -7,7 +7,7 @@
     padding: 5px;
     background-color: var(--screen-blue);
     color: aliceblue;
-    z-index: 3;
+    z-index: 11;
 }
 .status-bar__column{
     display: flex;
@@ -26,6 +26,9 @@
    
 }
 .status-bar__column:nth-child(3) .fa-battery-quarter{
-    margin: 0px 5px;
     font-size: 20px;
+}
+.status-bar__column:nth-child(3) .fa-battery-quarter,
+.status-bar__column:nth-child(3) span{
+    margin-left:5px;
 }

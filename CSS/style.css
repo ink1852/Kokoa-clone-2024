@@ -16,15 +16,17 @@
 /* Screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/create.css";
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
 @import "screen/chat.css";
 
+
 body{
     font-family: 'Noto Sans', sans-serif;
     height: 100vh;
-    background-color: #0D1525;
+    background-color: var(--screen-black);
 }
 .main-screen{
     padding: 0px var(--horizontal-space);

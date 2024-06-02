@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Replit</title>
+    <title>Create - Replit</title>
 </head>
 <body>
   <div class="status-bar">
@@ -17,6 +17,7 @@
     <div class="status-bar__column">
     </div>
     <div class="status-bar__column">
+      <i class="fa-solid fa-wifi"></i>
       <span>10%</span>
       <i class="fa-solid fa-battery-quarter"></i>
     </div>
@@ -31,19 +32,153 @@
 
   <div class="main-padding"></div>
 
-  <div id="folders">
-    <div class="folders__column">
-      <i class="fa-regular fa-folder"></i>
-      <span>1 Folders</span>
-    </div>
-    <div class="folders__column">
-      <i class="fa-solid fa-chevron-down"></i>
-    </div>
-    
-  </div>
-
   <main class="main-screen">
 
+    <div id="browse-category">
+      <h2 class="browse-category__title title-text">browse by category</h2>
+      <div class="category-components">
+        <div id="box-for-overflow-x">
+          <div class="category-component">
+            <img src="https://replit.com/public/images/template-category-websites.jpg"/>
+            <div class="category-component__text">
+              <h1>Websites</h1>
+              <span>Build and host websites and web apps</span>
+            </div>
+            <div class="category-component--shadow"></div>
+          </div>
+          <div class="category-component">
+            <img src="https://replit.com/public/images/template-category-games.jpg"/>
+            <div class="category-component__text">
+              <h1>Games</h1>
+              <span>Build and host websites and web apps</span>
+            </div>
+            <div class="category-component--shadow"></div>
+          </div>
+          <div class="category-component">
+            <img src="https://replit.com/public/images/template-category-graphics.jpg"/>
+            <div class="category-component__text">
+              <h1>Bots</h1>
+              <span>Build Discord, Telegram, etc.</span>
+            </div>
+            <div class="category-component--shadow"></div>
+          </div>
+          <div class="category-component">
+            <img src="https://replit.com/public/images/template-category-bots.jpg"/>
+            <div class="category-component__text">
+              <h1>Graphics</h1>
+              <span>Build and host websites and web apps</span>
+            </div>
+            <div class="category-component--shadow"></div>
+          </div>
+          <div class="category-component">
+            <img src="https://replit.com/public/images/template-category-languages.jpg"/>
+            <div class="category-component__text">
+              <h1>Languages</h1>
+              <span>The most popular languages and frameworks</span>
+            </div>
+            <div class="category-component--shadow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="import-github">
+      <div class="import-github__text">
+        <div class="import-github__text--github title-text">
+          <span>github</span>
+        </div>
+        <div class="import-github__text--setting">
+          <span>Setings</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="link__github">
+        <span>Import from URL</span>
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </div>
+    <div id="recently-used">
+      <h2 class="title-text">recently used</h2>
+      <div class="recently-used__components">
+        <div class="recently-used__component">
+          <img src="https://replit.com/cdn-cgi/image/width=48,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664473044967_513d905f04b05dc76a37ec102fb668eb.jpeg"/>
+          <h1 class="recently-used__component--lang">HTML, CSS, JS</h1>
+        </div>
+        <div class="recently-used__component">
+          <img src="https://replit.com/cdn-cgi/image/width=64,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664475627998_03dab003aa2236b1a3f44cb52bcbdf04.jpeg"/>
+          <h1 class="recently-used__component--lang">C</h1>
+        </div>
+        <div class="recently-used__component">
+          <img src="https://replit.com/cdn-cgi/image/width=64,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664475603315_1442b3c69cc612aff6ef60cce0c69328.jpeg"/>
+          <h1 class="recently-used__component--lang">Python</h1>
+        </div>
+      </div>
+    </div>
+    <div id="recommend">
+      <h2 class="title-text">recommend</h2>
+      <div class="recommend__languages-img">
+        <img src="https://replit.com/public/images/template-category-languages.jpg"/>
+        <div class="category-component__text">
+          <h1>Languages</h1>
+          <span>The most popular languages and frameworks</span>
+        </div>
+        <div class="recommend__languages-img--shadow"></div>
+      </div>
+      <div class="recommend__components">
+        <div class="recommend__component">
+          <img src="https://replit.com/cdn-cgi/image/width=64,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664475603315_1442b3c69cc612aff6ef60cce0c69328.jpeg" />
+          <div class="recommend__component--text">
+            <div class="category-component__text ">
+              <h1>Python</h1>
+              <span>Python is a high-level, interpreted,<br> general-purpose programming language.</span>
+            </div>
+          </div>
+          
+          <div class="recommend__component__how-many">
+            <i class="fa-solid fa-code-fork"></i>
+            <span>52.7M</span>
+          </div>
+        </div>
+      </div>
+      <div class="recommend__components">
+        <div class="recommend__component">
+          <img src="https://replit.com/cdn-cgi/image/width=48,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664473044967_513d905f04b05dc76a37ec102fb668eb.jpeg" />
+          <div class="recommend__component--text">
+            <div class="category-component__text ">
+              <h1>HTML, CSS, JS</h1>
+              <span>The languages that make up the web. HTML<br> providesthe basic structure, CSS controls forma...</span>
+            </div>
+          </div>
+          
+          <div class="recommend__component__how-many">
+            <i class="fa-solid fa-code-fork"></i>
+            <span>15.2M</span>
+          </div>
+        </div>
+      </div>
+      <div class="recommend__components">
+        <div class="recommend__component">
+          <img src="https://replit.com/cdn-cgi/image/width=64,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664475621720_efa68b913cf8f7ee5b6c5ccc33a85f7f.jpeg" />
+          <div class="recommend__component--text">
+            <div class="category-component__text ">
+              <h1>Node.js</h1>
+              <span>Nodejs is an open-source, cross-platform,<br> back-end JavaScript runtime environment.</span>
+            </div>
+          </div>
+          
+          <div class="recommend__component__how-many">
+            <i class="fa-solid fa-code-fork"></i>
+            <span>9.6M</span>
+          </div>
+        </div>
+      </div>
+      <div class="link__github">
+        <span>View more</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      
+    </div>
+
+    
   </main>
 
   <nav class="nav">
@@ -61,7 +196,7 @@
             </a>
         </li>
         <li class="nav__btn">
-            <a class="nav__link" href="#">
+            <a class="nav__link" href="search.html">
               <i class="fa-solid fa-magnifying-glass"></i>
               <span>Search</span>
             </a>

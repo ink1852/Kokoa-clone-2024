@@ -3,16 +3,17 @@
     z-index: 99;
     width: 100vw;
     height: 100vh;
-    background-color: var(--screen-blue);
+    background-color: var(--screen-black);
     top: 0%;
     right: 0%;
     display: none;
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    color: aliceblue;
 
 }
-@media screen and (min-width: 501px){
+@media screen and (min-width: 900px){
     #no-mobile{
         display: flex;
     }       

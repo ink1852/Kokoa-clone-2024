@@ -1,2 +1,2 @@
-# Kokoa Clone 2024
-챌린지 졸업 작품
+# Kokoa Clone 2024, but Replit...
+챌린지 졸업 작품으로 replit 클론 코딩 해버리기
