@@ -177,4 +177,5 @@ footer{
 .btns__btn:hover{
     transform: scale(1.05);
     background-color: rgb(18, 82, 60);
+    cursor: pointer;
 }
