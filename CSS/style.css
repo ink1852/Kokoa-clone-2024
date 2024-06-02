@@ -3,13 +3,9 @@
 @import "variables.css";
 
 /* Compoenents */
-@import "components/red-point.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-@import "components/user-component.css";
-@import "components/icon-row.css";
-@import "components/menu-header.css";
 @import "components/screen-padding.css";
 @import "components/no-mobile.css";
 
@@ -19,8 +15,7 @@
 @import "screen/create.css";
 @import "screen/search.css";
 @import "screen/account.css";
-@import "screen/settings.css";
-@import "screen/chat.css";
+@import "screen/code.css";
 
 
 body{

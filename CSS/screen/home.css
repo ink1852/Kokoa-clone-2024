@@ -101,7 +101,7 @@
 }
 #splash-screen{
     width: 100vw; 
-    height: 135vh;
+    height: 150vh;
     background-color: var(--screen-black);
     position: absolute; 
     display: flex;
@@ -115,7 +115,7 @@
 }
 .splash-screen__logo{
     position: relative;
-    top: 37.5%;
+    top: 32.5%;
     display: flex;
     align-items: center;
     justify-content: center;
